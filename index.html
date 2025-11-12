@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Vishal Mohindra — Full-Stack JavaScript Developer</title>
+  <meta name="description" content="Full-Stack JavaScript developer (React, Node.js, MongoDB). Open for freelance work." />
+  <style>
+    :root{--max-width:900px;--accent:#0066cc}
+    *{box-sizing:border-box}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;max-width:var(--max-width);margin:36px auto;padding:18px;color:#111}
+    header{display:flex;flex-direction:column;gap:6px}
+    h1{font-size:28px;margin:0}
+    h2{font-size:18px;margin:18px 0 8px}
+    p{margin:8px 0}
+    .muted{color:#666}
+    .projects{display:grid;grid-template-columns:1fr;gap:12px}
+    .card{border:1px solid #e6e6e6;padding:12px;border-radius:10px}
+    a{color:var(--accent)}
+    footer{margin-top:28px;color:#666;font-size:13px}
+    @media(min-width:720px){
+      .projects{grid-template-columns:repeat(2,1fr)}
+      header{flex-direction:row;justify-content:space-between;align-items:center}
+    }
+    .cta{display:inline-block;padding:8px 12px;border-radius:8px;background:var(--accent);color:#fff;text-decoration:none}
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>Vishal Mohindra</h1>
+      <div class="muted">Full-Stack JavaScript Developer — React · Node.js · MongoDB</div>
+    </div>
+    <div style="text-align:right">
+      <a class="cta" href="mailto:moh.vishal@gmail.com">Hire me</a>
+      <div class="muted" style="font-size:12px;margin-top:6px">Based in India • Open to freelance work</div>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>I build responsive web applications and small web products using React, Node.js, Express, and MongoDB. I focus on clean code, performance, and delivering value quickly for startups and small businesses.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <article class="card">
+        <h3>Feedback App</h3>
+        <p class="muted">A feedback management system with add/edit/delete and local auth.</p>
+        <p>Stack: React · Express · MongoDB</p>
+        <p>GitHub: <a href="https://github.com/vishalmohindra/feedback-app-final" target="_blank">feedback-app-final</a></p>
+      </article>
+
+      <article class="card">
+        <h3>Product View App</h3>
+        <p class="muted">Responsive product listing & detail UI with dynamic content.</p>
+        <p>Stack: React · JavaScript</p>
+        <p>GitHub: <a href="https://github.com/vishalmohindra/productview" target="_blank">productview</a></p>
+      </article>
+
+      <article class="card">
+        <h3>Fleet Manager</h3>
+        <p class="muted">Fleet management dashboard prototype for tracking vehicles and operations.</p>
+        <p>Stack: React · Node</p>
+        <p>GitHub: <a href="https://github.com/vishalmohindra/fleet-manager" target="_blank">fleet-manager</a></p>
+      </article>
+
+      <article class="card">
+        <h3>More</h3>
+        <p class="muted">Add any additional projects, case studies, or links here (e.g., live demos).</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>📧 <a href="mailto:moh.vishal@gmail.com">moh.vishal@gmail.com</a></p>
+    <p>🔗 LinkedIn: <a href="https://www.linkedin.com/in/vishalmohindra/" target="_blank">linkedin.com/in/vishalmohindra</a></p>
+    <p>💻 GitHub: <a href="https://github.com/vishalmohindra" target="_blank">github.com/vishalmohindra</a></p>
+  </section>
+
+  <footer>
+    © 2025 Vishal Mohindra — Built with HTML • Deploy on Vercel / Netlify
+  </footer>
+</body>
+</html>
